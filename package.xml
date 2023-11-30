@@ -1,21 +1,16 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>openslam_gmapping</name>
-  <version>0.2.1</version>
-  <description>The catkinized verseion of openslam_gmapping package (https://github.com/OpenSLAM-org/openslam_gmapping/tree/79ef0b0e6d9a12d6390ae64c4c00d37d776abefb)</description>
+  <version>0.0.0</version>
+  <description>ROS2 port of openslam gmapping</description>
 
-  <maintainer email="ros-orphaned-packages@googlegroups.com">ROS Orphaned Package Maintainers</maintainer>
+  <maintainer email="rodrigo.salas@amtc.uchile.cl">Rodrigo Salas</maintainer>
   <license>BSD</license>
 
-  <url type="website">http://openslam.org/gmapping</url>
-  <url type="repository">https://github.com/ros-perception/openslam_gmapping</url>
-  <url type="bugtracker">https://github.com/ros-perception/openslam_gmapping/issues</url>
+  <buildtool_depend>ament_cmake</buildtool_depend>
 
-  <author>Cyrill Stachniss</author>
-  <author>Udo Frese</author>
-  <author>Giorgio Grisetti</author>
-  <author>Wolfram Burgard</author>
-
-  <buildtool_depend>catkin</buildtool_depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
 
 </package>
