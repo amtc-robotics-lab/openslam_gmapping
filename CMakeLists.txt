@@ -25,10 +25,9 @@ ament_export_libraries(sensor_range)
 ament_export_libraries(utils)
 ament_export_include_directories(include)
 
-# Headers
 install(
   DIRECTORY include/
-  DESTINATION include/${PROJECT_NAME}
+  DESTINATION include/
 )
 
 ament_package()

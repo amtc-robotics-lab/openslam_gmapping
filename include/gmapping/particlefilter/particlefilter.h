@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <float.h>
 #include <sys/types.h>
-#include<vector>
-#include<utility>
-#include<cmath>
-#include<gmapping/utils/gvalues.h>
+#include <vector>
+#include <utility>
+#include <cmath>
+#include <gmapping/utils/gvalues.h>
 
 
 /**
