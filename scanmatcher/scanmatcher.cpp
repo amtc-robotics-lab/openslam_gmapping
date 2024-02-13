@@ -560,7 +560,7 @@ void ScanMatcher::setLaserParameters
 	/*if (m_laserAngles)
 		delete [] m_laserAngles;
 	*/
-	assert(beams<LASER_MAXBEAMS);
+	assert(beams<=LASER_MAXBEAMS);
 	m_laserPose=lpose;
 	m_laserBeams=beams;
 	//m_laserAngles=new double[beams];
